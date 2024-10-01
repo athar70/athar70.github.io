@@ -321,7 +321,7 @@
       "name": "Professor Pierre Boulanger",
       "icon": "fa-solid fa-thumbtack",
       "reference": "Director of the Advanced Human-Computer Interfaces Laboratory at the University of Alberta, with over 40 years of expertise in 3D computer vision and virtual reality systems.",
-      "url": "https://www.ualberta.ca/computing-science/people/faculty/pierre-boulanger.html"
+      "url": "https://webdocs.cs.ualberta.ca/~pierreb/"
     },
     {
       "name": "Dr. Di Wu",
@@ -333,7 +333,7 @@
       "name": "Dr. Hadi Moradi",
       "icon": "fa-solid fa-thumbtack",
       "reference": "Assistant Professor at the University of Tehran's Electrical and Computer Engineering School, specializing in climbing robots and intelligent systems.",
-      "url": "https://ut.ac.ir/en/academics/engineering/hadi-moradi"
+      "url": "https://ece.ut.ac.ir/en/~moradih"
     }
   ]
 }
