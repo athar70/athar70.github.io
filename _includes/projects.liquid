@@ -14,6 +14,53 @@
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
+
+        <div class="hashtags">
+          {% if project.hashtags %}
+            {% for hashtag in project.hashtags %}
+              <span
+                class="
+                  hashtag
+                  {% if hashtag == 'VR' %}hashtag-vr
+                  {% elsif hashtag == 'RL' %}hashtag-rl
+                  {% elsif hashtag == 'DL' %}hashtag-dl
+                  {% elsif hashtag == 'SP' %}hashtag-sp
+                  {% elsif hashtag == 'ClassicalML' %}hashtag-classical
+                  {% elsif hashtag == 'CV' %}hashtag-cv
+                  {% elsif hashtag == 'VG' %}hashtag-vg
+                  {% endif %}
+                "
+                title="
+                  {% if hashtag == 'VR' %}Virtual Reality
+                  {% elsif hashtag == 'RL' %}Reinforcement Learning
+                  {% elsif hashtag == 'DL' %}Deep Learning
+                  {% elsif hashtag == 'SP' %}Signal Processing
+                  {% elsif hashtag == 'ClassicalML' %}Classical Machine Learning
+                  {% elsif hashtag == 'CV' %}Computer Vision
+                  {% elsif hashtag == 'VG' %}Video Game
+                  {% endif %}
+                "
+              >
+                {% if hashtag == 'VR' -%}
+                  Virtual Reality
+                {% elsif hashtag == 'RL' -%}
+                  Reinforcement Learning
+                {% elsif hashtag == 'DL' -%}
+                  Deep Learning
+                {% elsif hashtag == 'SP' -%}
+                  Signal Processing
+                {% elsif hashtag == 'ClassicalML' -%}
+                  Classical Machine Learning
+                {% elsif hashtag == 'CV' -%}
+                  Computer Vision
+                {% elsif hashtag == 'VG' -%}
+                  Video Game
+                {% endif %}
+              </span>
+            {% endfor %}
+          {% endif %}
+        </div>
+
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
