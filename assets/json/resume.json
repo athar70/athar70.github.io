@@ -1,200 +1,339 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Athar Mahmoudi",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "athar1@ualberta.ca",
+    "phone": "(587) 501-8919",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "10135 Saskatchewan Dr",
+      "postalCode": "",
+      "city": "Edmonton",
+      "countryCode": "Canada",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
+  "interests": [
+    {
+      "name": "Reinforcement Learning",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Reinforcement Learning",
+        "RL from Human Feedback (RLHF)",
+        "Deep Reinforcement Learning",
+        "Model-Free RL",
+        "Transfer Learning in RL"
+      ]
+    },
+    {
+      "name": "Human-Centered AI",
+      "icon": "fa-solid fa-users",
+      "keywords": ["Human-Computer Interaction (HCI)", "Personalized Therapy", "Adaptive Systems"]
+    }
+  ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Samsung Research Montreal",
+      "location": "Montreal, Canada",
+      "position": "Intern Research Scientist",
+      "url": "https://research.samsung.com/aicenter_montreal",
+      "startDate": "2022-06-01",
+      "endDate": "2023-05-01",
+      "summary": "",
+      "highlights": [
+        "Implemented and evaluated reinforcement learning architectures to optimize agent performance.",
+        "Developed curriculum learning techniques to effectively train RL agents.",
+        "Implemented a Vector Quantized Variational Autoencoder for efficient high-dimensional data clustering.",
+        "Adapted and integrated an existing Online Decision Transformer within our RL framework."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Pars Cognition",
+      "location": "Tehran, Iran",
+      "position": "Research Engineer",
+      "url": "https://www.maghzineh.com/",
+      "startDate": "2017-09-01",
+      "endDate": "2018-09-01",
+      "summary": "",
+      "highlights": ["Developed mini-serious video games within the field of cognitive science."]
     }
   ],
+
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "University of Alberta",
+      "location": "Edmonton, Canada",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "area": "Computing Science",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2018-09-01",
+      "endDate": "2024-12-01",
+      "score": "",
+      "courses": [
+        "Intro to Virtual/Augmented Reality and Telepresence",
+        "Machine Learning and the Brain",
+        "Image Processing and Analysis in Diagnostic Imaging"
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "Shahid Beheshti University,",
+      "location": "Tehran, Iran",
+      "url": "https://www.ualberta.ca/en/computing-science/",
+      "area": "Computer Engineering/Artificial Intelligence",
+      "studyType": "Master of Science,",
+      "startDate": "2014-09-01",
+      "endDate": "2017-08-01",
+      "score": "",
+      "courses": ["Machine Learning", "Neural Network", "Pattern Recognition", "Data Mining", "Image Processing", "Natural Language Processing"]
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "institution": "University of Tehran,",
+      "location": "Tehran, Iran",
+      "url": "https://encse.sbu.ac.ir/",
+      "area": "Computer Engineering/Software Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2009-09-01",
+      "endDate": "2014-08-01",
+      "score": "",
+      "courses": [
+        "Advanced Programming",
+        "Database Design",
+        "Data Structures",
+        "Artificial Intelligence",
+        "Operating Systems",
+        "Human-Computer Interaction",
+        "Intro to Multimedia",
+        "Intro to eLearning"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming Languages",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "MATLAB", "C#", "Java", "SQL"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Development Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-tools",
+      "keywords": ["VS Code", "MS Visual Studio", "Git", "Jupyter Notebook", "Google Colab"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Frameworks and Libraries",
+      "level": "Master",
+      "icon": "fa-solid fa-cubes",
+      "keywords": ["PyTorch", "OpenAI Gym", "Microsoft .NET", "Unity"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "The differences between children with autism and typically developed children in using a hand-eye-coordination video game",
+      "publisher": "Ubiquitous Computing and Ambient Intelligence: 11th International Conference, UCAmI",
+      "releaseDate": "2017",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-67585-5_27",
+      "summary": "This paper introduces a touch-based hand-eye coordination video game that effectively differentiates between children with autism and typically developing children using only two in-game features, demonstrating its potential as a cost-free tool for initial screening of motor coordination issues in autism."
+    },
+    {
+      "name": "A framework for easier designs: Augmented intelligence in serious games for cognitive development",
+      "publisher": "IEEE Consumer Electronics Magazine",
+      "releaseDate": "2018",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8570903",
+      "summary": "This article introduces a portable, rapid development framework for intelligent serious games that leverage human intervention to minimize complex AI requirements, enabling caregivers to foster social interactions with children with special needs across various settings."
+    },
+    {
+      "name": "Automated personalized exposure therapy based on physiological measures using experience-driven procedural content generation",
+      "publisher": "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment",
+      "releaseDate": "2021",
+      "url": "https://ojs.aaai.org/index.php/AIIDE/article/view/18914",
+      "summary": "This research proposes a personalized virtual reality exposure therapy framework that utilizes physiological sensors and machine learning algorithms to automatically adapt exposure parameters through procedural content generation, addressing the limitations of subjective, hand-authored methods, with planned human studies on arachnophobia and fear of public speaking."
+    },
+    {
+      "name": "Arachnophobia exposure therapy using experience-driven procedural content generation via reinforcement learning (EDPCGRL)",
+      "publisher": "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment",
+      "releaseDate": "2021",
+      "url": "https://ojs.aaai.org/index.php/AIIDE/article/view/18904",
+      "summary": "This paper proposes a reinforcement learning-based approach that uses physiological measures to automatically adapt therapeutic content in arachnophobia exposure therapy, generating personalized virtual spiders that adapt more quickly and accurately than existing search-based methods."
+    },
+    {
+      "name": "Stress Detection from Photoplethysmography in a Virtual Reality Environment",
+      "publisher": "ArXiv",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2409.17427",
+      "summary": "This article presents a virtual reality exposure therapy platform that non-intrusively assesses patients' mental states using photoplethysmography (PPG) signals, achieving a 70.6% accuracy in classifying relaxing and stressful states—outperforming more complex methods."
+    },
+    {
+      "name": "Spiders Based on Anxiety: How Reinforcement Learning Can Deliver Desired User Experience in Virtual Reality Personalized Arachnophobia Treatment",
+      "publisher": "Under review",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2409.17406",
+      "summary": "This paper introduces a framework for personalized virtual reality exposure therapy for arachnophobia that leverages procedural content generation and reinforcement learning to automatically adapt virtual spiders to elicit specific anxiety responses, demonstrating superior performance over traditional rules-based methods."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Experience-Driven Procedural Content Generation via Reinforcement Learning",
+      "summary": "Developed an adaptive system using Experience-Driven Procedural Content Generation and Reinforcement Learning to tailor virtual environments based on user experiences.",
+      "highlights": ["Implemented reinforcement learning algorithms in Python", "Utilized OpenAI Gym for environment simulation and testing"],
+      "url": "https://github.com/athar70/EDPCGRL4Spider"
+    },
+    {
+      "name": "Online Decision Transformer",
+      "summary": "Developed an Online Decision Transformer using Python and PyTorch to enhance decision-making processes in dynamic environments.",
+      "highlights": ["Implemented transformer models for real-time decision making", "Leveraged PyTorch for efficient model training and deployment"],
+      "url": ""
+    },
+    {
+      "name": "Vector Quantized Variational Autoencoder for Time-Series Clustering",
+      "summary": "Developed a Vector Quantized Variational Autoencoder using Python and PyTorch for effective clustering of time-series data.",
+      "highlights": ["Implemented VQ-VAE architecture for dimensionality reduction", "Applied to time-series data for improved clustering accuracy"],
+      "url": ""
+    },
+    {
+      "name": "Curriculum Learning for Reinforcement Learning",
+      "summary": "Developed a curriculum learning approach for reinforcement learning using Python and OpenAI Gym to improve learning efficiency and performance.",
+      "highlights": [
+        "Implemented progressive learning strategies to enhance RL training",
+        "Utilized OpenAI Gym environments for robust testing and validation"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Stress Level Estimation Based on Physiological Responses",
+      "summary": "Estimated stress levels using physiological responses through traditional machine learning methods and LSTM models in Python, Scikit-learn, and PyTorch.",
+      "highlights": ["Developed models to accurately classify stress states", "Integrated physiological data for comprehensive analysis"],
+      "url": "https://github.com/athar70/Stress-Estimation"
+    },
+    {
+      "name": "Heart Rate Estimation from Video via CNN",
+      "summary": "Developed a Convolutional Neural Network in Python and PyTorch to estimate heart rate from video data, enabling non-intrusive physiological monitoring.",
+      "highlights": ["Designed and trained CNN models for accurate heart rate estimation", "Implemented video processing techniques"],
+      "url": "https://github.com/athar70/Heart-Rate-Estimation"
+    },
+    {
+      "name": "Behavior Pattern Analysis in Games",
+      "summary": "Applied machine learning techniques in MATLAB to identify distinct behavior patterns in game environments, enhancing user experience and engagement.",
+      "highlights": ["Developed models to detect and categorize user behaviors", "Utilized MATLAB for data analysis and visualization"],
+      "url": ""
+    },
+    {
+      "name": "Adaptive Virtual Reality Environment",
+      "summary": "Created a Virtual Reality environment with dynamic parameters in Unity, allowing real-time adjustments based on user interactions and physiological responses.",
+      "highlights": [
+        "Implemented real-time parameter adjustments to enhance user experience",
+        "Integrated physiological sensors for adaptive environment changes"
+      ],
+      "url": "https://www.youtube.com/watch?v=cYK5I_U6mK0&t=1s&ab_channel=AtharMahmoudi-Nejad"
+    },
+    {
+      "name": "Serious Video Games Development",
+      "summary": "Developed small serious video games using GameMaker and Unity, focusing on educational and therapeutic applications to engage users effectively.",
+      "highlights": [
+        "Designed game mechanics to support educational and therapeutic goals",
+        "Utilized GameMaker and Unity for cross-platform game development"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Neural Network for Impulse Noise Detection",
+      "summary": "Implemented a neural network in MATLAB to detect impulse noise, improving signal processing accuracy in communication systems.",
+      "highlights": ["Designed and trained neural network models for noise detection"],
+      "url": ""
+    },
+    {
+      "name": "Hidden Semi-Markov Model for Mobility Tracking",
+      "summary": "Implemented a hidden semi-Markov model in Java to track mobility patterns with missing data and multiple observation sequences, enhancing data reliability and tracking accuracy.",
+      "highlights": [
+        "Developed robust models to handle incomplete and complex data",
+        "Improved mobility tracking through advanced statistical methods"
+      ],
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CHI Conference 2024",
+      "position": "Reviewer",
+      "url": "https://chi2024.acm.org/",
+      "year": "2023",
+      "summary": "Served as a reviewer for CHI Conference 2024, providing peer reviews for submissions in human-computer interaction and related fields.",
+      "highlights": []
+    },
+    {
+      "organization": "Experimental AI in Games (EXAG)",
+      "position": "Committee Member",
+      "url": "https://www.exag.org/",
+      "year": "2024",
+      "summary": "Active committee member served as a reviewer for EXAG workshops focused on experimental AI in games.",
+      "highlights": []
+    },
+    {
+      "organization": "Computer Science Graduate Student Association (CSGSA)",
+      "location": "Edmonton, Canada",
+      "position": "Treasurer",
+      "url": "https://sites.google.com/ualberta.ca/csgsa",
+      "year": "2019",
+      "summary": "Managed the financial operations of the CSGSA, a voluntary group offering support and activities for Computing Science graduate students at the University of Alberta.",
+      "highlights": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Olympiad Competition Award",
+      "date": "2008",
+      "awarder": "Math and Literature Olympiads for Pre-University Students",
+      "url": "",
+      "summary": "Awarded in the Math and Literature Olympiads for pre-university students."
+    },
+    {
+      "title": "Ranked 459th in the Undergraduate Nationwide Universities Entrance Exam",
+      "date": "2009",
+      "awarder": "Nationwide Universities Entrance Exam, Iran",
+      "url": "",
+      "summary": "Achieved a ranking of 459th in the Undergraduate Nationwide Universities Entrance Exam in Iran, competing against over 300,000 participants."
+    },
+    {
+      "title": "Ranked 65th in the Graduate Nationwide Universities Entrance Exam",
+      "date": "2014",
+      "awarder": "Graduate Nationwide Universities Entrance Exam, Iran",
+      "url": "",
+      "summary": "Achieved a ranking of 65th in the Graduate Nationwide Universities Entrance Exam in Iran, out of more than 30,000 participants."
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Matthew Guzdial",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Assistant Professor in Computing Science at the University of Alberta, specializing in creative artificial intelligence and machine learning.",
+      "url": "https://www.cs.ualberta.ca/~guzdial/"
+    },
+    {
+      "name": "Professor Pierre Boulanger",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Director of the Advanced Human-Computer Interfaces Laboratory at the University of Alberta, with over 40 years of expertise in 3D computer vision and virtual reality systems.",
+      "url": "https://www.ualberta.ca/computing-science/people/faculty/pierre-boulanger.html"
+    },
+    {
+      "name": "Dr. Di Wu",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Senior Staff Research Scientist at Samsung AI Center Montreal and Adjunct Professor at McGill University, focusing on reinforcement learning and AI for telecommunications.",
+      "url": "https://sites.google.com/view/di-wu/home?authuser=0&pli=1"
+    },
+    {
+      "name": "Dr. Hadi Moradi",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Assistant Professor at the University of Tehran's Electrical and Computer Engineering School, specializing in climbing robots and intelligent systems.",
+      "url": "https://ut.ac.ir/en/academics/engineering/hadi-moradi"
     }
   ]
 }
