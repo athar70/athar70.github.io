@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="portfolio-page">
+  <header class="experience-header">
+    <h1 class="section-title">
+      {{ page.title }}
+    </h1>
+    {% if page.description %}
+      <p class="section-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="experience-content">
+      <!-- Work Experience Section -->
+      <section id="work">
+        <h2 class="experience-section-title">Work Experience</h2>
+        <ul class="experience-list">
+          {% for entry in site.data.experience.work %}
+            {% include experience_card.liquid %}
+          {% endfor %}
+        </ul>
+      </section>
+
+      <!-- Teaching Experience Section -->
+      <section id="teaching" class="mt-5">
+        <h2 class="experience-section-title">Teaching Assistant Experience</h2>
+        <ul class="experience-list">
+          {% for entry in site.data.experience.teaching %}
+            {% include experience_card.liquid %}
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </article>
+</div>

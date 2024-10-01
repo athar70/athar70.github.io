@@ -1,0 +1,108 @@
+work:
+  - title: "Intern Research Scientist"
+    company: "Samsung Research"
+    duration: "Jun 2022 - Apr 2023"
+    year: "2022-2023"
+    location: "Montreal, Canada"
+    url: "https://research.samsung.com/aicenter_montreal"
+    maindescription: "Developed reinforcement learning methods for 5G networks."
+    description:
+      - title: "Key Projects"
+        contents:
+          - "Implemented and evaluated reinforcement learning architectures to optimize agent performance."
+          - "Developed curriculum learning techniques to effectively train reinforcement learning agents."
+          - "Implemented a Vector Quantized Variational Autoencoder for efficient high-dimensional data clustering."
+          - "Adapted and integrated an existing Online Decision Transformer within our reinforcement learning framework."
+    logo: "/assets/img/samsung.png"
+
+  - title: "Research Engineer"
+    company: "Pars Cognition"
+    duration: "Sept 2017 - Aug 2018"
+    year: "2017-2018"
+    location: "Tehran, Iran"
+    url: "https://www.maghzineh.com/"
+    maindescription: "Developed mini-serious video games in the field of cognitive science."
+    description:
+      - title: "Key Projects"
+        contents:
+          - "Designed and developed interactive video games to study cognitive processes."
+          - "Collaborated with psychologists to align game mechanics with research objectives."
+    logo: "/assets/img/pars_cognition.png"
+
+teaching:
+  - title: "Introduction to GPU Programming"
+    institution: "University of Alberta"
+    duration: "Winter 2022, Fall 2024"
+    year: "2022, 2024"
+    location: "Edmonton, Canada"
+    url: "https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/introduction-to-gpu-programming.html"
+    maindescription: "Served as Teaching Assistant for Introduction to GPU Programming for two semesters."
+    description:
+      - title: "Key Responsibilities:"
+        contents:
+          - "Conducted lab sessions and provided office hours for student support."
+          - "Graded assignments and exams, ensuring timely and constructive feedback."
+
+  - title: "Introduction to Computer Graphics"
+    institution: "University of Alberta"
+    duration: "Winter 2024"
+    year: "2024"
+    location: "Edmonton, Canada"
+    url: "https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/introduction-to-computer-graphics.html"
+    maindescription: "Served as Teaching Assistant for Introduction to Computer Graphics."
+    description:
+      - title: "Key Responsibilities:"
+        contents:
+          - "Evaluated and graded student assignments and examinations."
+
+  - title: "Introduction to Virtual/Augmented Reality and Telepresence"
+    institution: "University of Alberta"
+    duration: "Fall 2021"
+    year: "2021"
+    location: "Edmonton, Canada"
+    url: "https://webdocs.cs.ualberta.ca/~pierreb/MM806-2022/"
+    maindescription: "Served as Teaching Assistant for Introduction to Virtual/Augmented Reality and Telepresence."
+    description:
+      - title: "Key Responsibilities:"
+        contents:
+          - "Held office hours to assist students with course material and assignments."
+          - "Managed and supervised student projects and lab exercises."
+          - "Provided detailed feedback on assignments and assessments."
+
+  - title: "Artificial Intelligence in Games"
+    institution: "University of Alberta"
+    duration: "Winter 2020"
+    year: "2020"
+    location: "Edmonton, Canada"
+    maindescription: "Served as Teaching Assistant for Artificial Intelligence in Games."
+    description:
+      - title: "Key Responsibilities:"
+        contents:
+          - "Guided students through AI implementation projects and research during office hours."
+          - "Assessed and provided feedback on student coursework and assignments."
+
+  - title: "Introduction to Human-Computer Interaction"
+    institution: "University of Alberta"
+    duration: "Winter 2019"
+    year: "2019"
+    location: "Edmonton, Canada"
+    maindescription: "Served as Teaching Assistant for Introduction to Human-Computer Interaction."
+    description:
+      - title: "Key Responsibilities:"
+        contents:
+          - "Conducted interactive labs and provided student support."
+          - "Evaluated and graded assignments and projects to ensure academic standards."
+
+  - title: "File and Database Management"
+    institution: "University of Alberta"
+    duration: "Fall 2018, Fall 2019, Fall 2020, Winter 2021"
+    year: "2018, 2019, 2021"
+    location: "Edmonton, Canada"
+    url: "https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/introduction-to-file-and-database-management.html"
+    maindescription: "Served as Teaching Assistant for File and Database Management across multiple semesters."
+    description:
+      - title: "Key Responsibilities:"
+        contents:
+          - "Led lab sessions to reinforce course concepts."
+          - "Graded assignments, projects, and exams to maintain academic integrity."
+          - "Supported course lectures and developed supplementary teaching materials."

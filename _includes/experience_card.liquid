@@ -1,0 +1,126 @@
+<li class="experience-item list-group-item">
+  <!-- Use experience-item for consistent item styling -->
+  <div class="row align-items-center">
+    <!-- Use align-items-center for vertical alignment -->
+    {% if entry.year or entry.logo %}
+      <div class="col-xs-2 col-sm-2 col-md-2 text-center" style="width: 75px;">
+        <table class="experience-table">
+          <!-- Use experience-table for table styling -->
+          <tbody>
+            <tr>
+              <td>
+                {% if entry.logo %}
+                  <img
+                    src="{{ entry.logo | relative_url }}"
+                    alt="{{ entry.company }} Logo"
+                    class="company-logo mb-2"
+                    style="max-width: 100px; height: auto;"
+                  >
+                {% endif %}
+                {% if entry.year %}
+                  <span class="badge font-weight-bold text-uppercase align-middle experience-year" style="min-width: 75px;">
+                    {{ entry.year }}
+                  </span>
+                {% endif %}
+              </td>
+            </tr>
+            {% if entry.location %}
+              <tr>
+                <td>
+                  <p class="experience-location">
+                    <i class="fa-solid fa-location-dot experience-icon-location"></i>
+                    {{ entry.location }}
+                  </p>
+                </td>
+              </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+
+    <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+      {% if entry.title %}
+        <h6 class="experience-title font-weight-bold ml-1 ml-md-4">
+          <a href="{{ entry.url }}">{{ entry.title }}</a>
+        </h6>
+        <!-- Use experience-title for title styling -->
+      {% endif %}
+      {% if entry.department or entry.institution %}
+        <table class="experience-table ml-1 ml-md-4 experience-institution">
+          <!-- Use experience-table for consistent table layout -->
+          <tbody>
+            {% if entry.institution %}
+              <tr>
+                <td style="vertical-align: top; text-align: center" class="experience-institution">
+                  <i class="fa-solid fa-building-columns experience-icon-institution"></i>
+                </td>
+                <td class="experience-institution">
+                  {% if entry.institution_link %}
+                    <a href="{{ entry.institution_link }}" target="_blank">{{ entry.institution }}</a>
+                  {% else %}
+                    {{ entry.institution }}
+                  {% endif %}
+                </td>
+              </tr>
+            {% endif %}
+            {% if entry.department %}
+              <tr>
+                <td style="vertical-align: top; text-align: center" class="experience-department">
+                  <i class="fa-regular fa-circle-dot experience-icon-department"></i>
+                </td>
+                <td class="experience-department">{{ entry.department }}</td>
+              </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      {% endif %}
+      {% if entry.maindescription %}
+        <div class="experience-description ml-1 ml-md-4">{{ entry.maindescription }}</div>
+        <!-- Use experience-description for description styling -->
+      {% endif %}
+      {% if entry.description %}
+        <ul class="experience-list items">
+          <!-- Use experience-list for list styling -->
+          {% for item in entry.description %}
+            <li>
+              {% if item.title and item.contents %}
+                <span class="experience-item-title">{{ item.title }}</span>
+                <ul class="experience-subitems">
+                  {% for subitem in item.contents %}
+                    <li>
+                      <span class="experience-subitem">{{ subitem }}</span>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% else %}
+                <span class="experience-item">{{ item }}</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if entry.items %}
+        <ul class="experience-list items">
+          <!-- Use experience-list for consistent item list styling -->
+          {% for item in entry.items %}
+            <li>
+              {% if item.title and item.contents %}
+                <span class="experience-item-title">{{ item.title }}</span>
+                <ul class="experience-subitems">
+                  {% for subitem in item.contents %}
+                    <li>
+                      <span class="experience-subitem">{{ subitem }}</span>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% else %}
+                <span class="experience-item">{{ item }}</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+</li>

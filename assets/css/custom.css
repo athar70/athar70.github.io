@@ -1,0 +1,39 @@
+.hashtags {
+  margin-top: 10px; /* Space above the hashtags */
+}
+
+.hashtag {
+  display: inline-block; /* Display as inline blocks */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 5px; /* Space between hashtags */
+  font-size: 14px; /* Font size */
+}
+
+.hashtag-rl {
+  background-color: #28a745; /* Green for Reinforcement Learning */
+}
+
+.hashtag-vr {
+  background-color: #ff69b4; /* Pink for Virtual Reality */
+}
+
+.hashtag-dl {
+  background-color: #ff0000; /* Red for Deep Learning */
+}
+
+.hashtag-sp {
+  background-color: #0000ff; /* Blue for Signal Processing */
+}
+
+.hashtag-classical {
+  background-color: #ffa500; /* Orange for Classical Machine Learning */
+}
+
+.hashtag-cv {
+  background-color: #800080; /* Purple for Computer Vision */
+}
+.hashtag-vg {
+  background-color: #e98fbc; /* Pink for Video Game */
+}

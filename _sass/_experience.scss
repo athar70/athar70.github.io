@@ -1,0 +1,88 @@
+.experience-section-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.experience-item {
+  padding: 20px 20px;
+  border-bottom: 1px solid var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  border-left: 1px solid var(--global-bg-color);
+  border-right: 1px solid var(--global-bg-color);
+  background-color: var(--global-bg-color);
+}
+
+.experience-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--global-text-color);
+}
+
+.experience-logo {
+  max-width: 100px;
+}
+
+.experience-year {
+  background-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+  padding: 5px;
+}
+
+.experience-location {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.experience-icon-location {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+}
+
+.experience-institution {
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+  margin-right: 0.3rem;
+}
+
+.experience-description {
+  color: var(--global-text-color);
+  margin-top: 10px;
+}
+
+.experience-list {
+  padding-left: 40px;
+  margin-top: 10px;
+}
+
+.experience-item-title {
+  font-weight: bold;
+  color: var(--global-text-color);
+  margin-top: 10px;
+}
+
+.experience-btn {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.experience-btn:hover {
+  text-decoration: underline;
+  color: var(--global-theme-color);
+}
+
+.company-logo {
+  max-width: 100px; /* Increased size */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px; /* Center the logo and add bottom margin */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.company-logo:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
