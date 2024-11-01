@@ -166,6 +166,13 @@
       "summary": "This paper proposes a reinforcement learning-based approach that uses physiological measures to automatically adapt therapeutic content in arachnophobia exposure therapy, generating personalized virtual spiders that adapt more quickly and accurately than existing search-based methods."
     },
     {
+      "name": "Label-Free Subjective Player Experience Modelling via Let's Play Videos",
+      "publisher": "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2410.02967",
+      "summary": "This paper introduces a label-free approach to Player Experience Modelling (PEM) using gameplay videos, validated through strong correlations with affective measures in Angry Birds gameplay."
+    },
+    {
       "name": "Stress Detection from Photoplethysmography in a Virtual Reality Environment",
       "publisher": "ArXiv",
       "releaseDate": "2024",
