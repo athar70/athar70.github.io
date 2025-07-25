@@ -1,4 +1,19 @@
 work:
+  - title: "Machine Learning Scientist"
+    company: "Advanced Sensor Research (ASR)"
+    duration: "Jan 2025 - Present"
+    year: "2025-Present"
+    location: "Edmonton, Canada"
+    url: "https://advancedsensorresearch.ca/"
+    maindescription: "Developing AI-driven methods for non-invasive glucose monitoring using sensor data."
+    description:
+      - title: "Key Projects"
+        contents:
+          - "Designed and implemented Transformer-based frameworks for glucose level estimation."
+          - "Developed and optimized LSTM and autoencoder architectures for sensor data analysis."
+          - "Analyzed sensor data to uncover meaningful predictive patterns."
+    logo: "/assets/img/asr.png"
+
   - title: "Intern Research Scientist"
     company: "Samsung Research"
     duration: "Jun 2022 - Apr 2023"

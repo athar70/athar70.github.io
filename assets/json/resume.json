@@ -27,45 +27,73 @@
       "name": "Reinforcement Learning",
       "icon": "fa-solid fa-brain",
       "keywords": [
-        "Reinforcement Learning",
-        "RL from Human Feedback (RLHF)",
-        "Deep Reinforcement Learning",
         "Model-Free RL",
+        "Deep Reinforcement Learning",
+        "RL from Human Feedback (RLHF)",
         "Transfer Learning in RL"
       ]
     },
     {
-      "name": "Human-Centered AI",
-      "icon": "fa-solid fa-users",
-      "keywords": ["Human-Computer Interaction (HCI)", "Personalized Therapy", "Adaptive Systems"]
-    }
-  ],
-  "work": [
-    {
-      "name": "Samsung Research Montreal",
-      "location": "Montreal, Canada",
-      "position": "Intern Research Scientist",
-      "url": "https://research.samsung.com/aicenter_montreal",
-      "startDate": "2022-06-01",
-      "endDate": "2023-05-01",
-      "summary": "",
-      "highlights": [
-        "Implemented and evaluated reinforcement learning architectures to optimize agent performance.",
-        "Developed curriculum learning techniques to effectively train RL agents.",
-        "Implemented a Vector Quantized Variational Autoencoder for efficient high-dimensional data clustering.",
-        "Adapted and integrated an existing Online Decision Transformer within our RL framework."
+      "name": "Time Series and Sensor Analytics",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Time Series Analysis",
+        "Transformers for Time Series",
+        "Decision Transformer",
+        "Forecasting and Prediction"
       ]
     },
     {
-      "name": "Pars Cognition",
-      "location": "Tehran, Iran",
-      "position": "Research Engineer",
-      "url": "https://www.maghzineh.com/",
-      "startDate": "2017-09-01",
-      "endDate": "2018-09-01",
-      "summary": "",
-      "highlights": ["Developed mini-serious video games within the field of cognitive science."]
+      "name": "Video Games",
+      "icon": "fa-solid fa-gamepad",
+      "keywords": [
+        "Games as Psychological Measures",
+        "Games for Therapy",
+        "Game Adaptation"
+      ]
     }
+  ],
+  "work": [
+  {
+    "name": "Advanced Sensor Research (ASR)",
+    "location": "Edmonton, Canada",
+    "position": "Machine Learning Scientist",
+    "url": "https://advancedsensorresearch.ca/",
+    "startDate": "2025-01-16",
+    "summary": "Working on innovative, AI-driven solutions for glucose monitoring using advanced sensor technologies.",
+    "highlights": [
+      "Designed and implemented Transformer-based frameworks for accurate glucose level estimation.",
+      "Developed and optimized Long Short-Term Memory (LSTM) networks and autoencoders for robust sensor data processing.",
+      "Conducted extensive sensor data analysis to identify and leverage meaningful patterns for predictive modeling."
+    ]
+  },
+  {
+    "name": "Samsung Research Montreal",
+    "location": "Montreal, Canada",
+    "position": "Intern Research Scientist",
+    "url": "https://research.samsung.com/aicenter_montreal",
+    "startDate": "2022-06-01",
+    "endDate": "2023-05-01",
+    "summary": "Focused on reinforcement learning and high-dimensional data representation for load balancing and energy saving in networks.",
+    "highlights": [
+      "Implemented and evaluated reinforcement learning architectures to optimize agent performance.",
+      "Developed curriculum learning strategies to effectively train RL agents.",
+      "Designed and deployed a Vector Quantized Variational Autoencoder (VQ-VAE) for efficient clustering of high-dimensional data.",
+      "Integrated and adapted an Online Decision Transformer within reinforcement learning frameworks."
+    ]
+  },
+  {
+    "name": "Pars Cognition",
+    "location": "Tehran, Iran",
+    "position": "Research Engineer",
+    "url": "https://www.maghzineh.com/",
+    "startDate": "2017-09-01",
+    "endDate": "2018-09-01",
+    "summary": "Created engaging video game experiences aimed at cognitive assessment and development.",
+    "highlights": [
+      "Developed mini-serious video games targeting cognitive science applications and research."
+    ]
+  }
   ],
 
   "education": [
@@ -282,6 +310,22 @@
       "url": "https://www.exag.org/",
       "year": "2024",
       "summary": "Active committee member served as a reviewer for EXAG workshops focused on experimental AI in games.",
+      "highlights": []
+    },
+    {
+      "organization": "AIIDE Conference 2025",
+      "position": "Reviewer",
+      "url": "https://www.aiide.org/",
+      "year": "2025",
+      "summary": "Provided peer reviews for research submissions focused on Artificial Intelligence and Interactive Digital Entertainment.",
+      "highlights": []
+    },
+    {
+      "organization": "PeerJ Journal",
+      "position": "Reviewer",
+      "url": "https://peerj.com/",
+      "year": "2025",
+      "summary": "Reviewed academic articles submitted to the PeerJ journal, ensuring the quality and validity of research in AI and related fields.",
       "highlights": []
     },
     {
