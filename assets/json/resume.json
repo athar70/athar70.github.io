@@ -149,19 +149,25 @@
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "MATLAB", "C#", "Java", "SQL"]
+      "keywords": ["Python", "MATLAB", "C#", "SQL"]
     },
     {
-      "name": "Development Tools",
+      "name": "Development Tools & Platforms",
       "level": "Master",
       "icon": "fa-solid fa-tools",
-      "keywords": ["VS Code", "MS Visual Studio", "Git", "Jupyter Notebook", "Google Colab"]
+      "keywords": ["Visual Studio Code", "Microsoft Visual Studio", "Git", "Jupyter Notebook", "Google Colab", "Google Cloud Platform", "AWS"]
     },
     {
-      "name": "Frameworks and Libraries",
+      "name": "Frameworks & Libraries",
       "level": "Master",
       "icon": "fa-solid fa-cubes",
-      "keywords": ["PyTorch", "OpenAI Gym", "Microsoft .NET", "Unity"]
+      "keywords": ["PyTorch", "OpenAI Gym", "Scikit-learn", "TensorFlow", "Hugging Face", "Microsoft .NET"]
+    },
+    {
+      "name": "Game and Simulation Engines",
+      "level": "Advanced",
+      "icon": "fa-solid fa-gamepad",
+      "keywords": ["Unity", "GameMaker Studio", "Virtual Reality (VR)"]
     }
   ],
   "publications": [
@@ -209,7 +215,7 @@
     },
     {
       "name": "Spiders Based on Anxiety: How Reinforcement Learning Can Deliver Desired User Experience in Virtual Reality Personalized Arachnophobia Treatment",
-      "publisher": "Under review",
+      "publisher": "Accepted for publication in ACM Transactions on Interactive Intelligent Systems (TIIS)",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2409.17406",
       "summary": "This paper introduces a framework for personalized virtual reality exposure therapy for arachnophobia that leverages procedural content generation and reinforcement learning to automatically adapt virtual spiders to elicit specific anxiety responses, demonstrating superior performance over traditional rules-based methods."
@@ -221,6 +227,14 @@
       "summary": "Developed an adaptive system using Experience-Driven Procedural Content Generation and Reinforcement Learning to tailor virtual environments based on user experiences.",
       "highlights": ["Implemented reinforcement learning algorithms in Python", "Utilized OpenAI Gym for environment simulation and testing"],
       "url": "https://github.com/athar70/EDPCGRL4Spider"
+    },
+    {
+      "name": "Glucose Level Estimation Using Transformer-Based Models",
+      "summary": "Built Transformer, LSTM, and autoencoder models in Python using PyTorch to estimate glucose levels from non-invasive sensor data.",
+      "highlights": [
+        "Implemented Transformer-based architectures for time series forecasting"
+      ],
+      "url": ""
     },
     {
       "name": "Online Decision Transformer",
@@ -297,16 +311,24 @@
   ],
   "volunteer": [
     {
+      "organization": "Transactions on Affective Computing journal",
+      "position": "Reviewer",
+      "url": "https://dl.acm.org/journal/itac",
+      "year": "2025",
+      "summary": "Served as a reviewer for ransactions on Affective Computing journal, providing peer reviews for submissions in human-computer interaction and related fields.",
+      "highlights": []
+    },
+    {
       "organization": "CHI Conference 2024",
       "position": "Reviewer",
       "url": "https://chi2024.acm.org/",
-      "year": "2023",
+      "year": "2024",
       "summary": "Served as a reviewer for CHI Conference 2024, providing peer reviews for submissions in human-computer interaction and related fields.",
       "highlights": []
     },
     {
       "organization": "Experimental AI in Games (EXAG)",
-      "position": "Committee Member",
+      "position": "Program Committee Member",
       "url": "https://www.exag.org/",
       "year": "2024",
       "summary": "Active committee member served as a reviewer for EXAG workshops focused on experimental AI in games.",
@@ -314,8 +336,8 @@
     },
     {
       "organization": "AIIDE Conference 2025",
-      "position": "Reviewer",
-      "url": "https://www.aiide.org/",
+      "position": "Program Committee Member",
+      "url": "https://sites.google.com/ualberta.ca/aiide2025/home",
       "year": "2025",
       "summary": "Provided peer reviews for research submissions focused on Artificial Intelligence and Interactive Digital Entertainment.",
       "highlights": []
