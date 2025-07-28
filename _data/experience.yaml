@@ -9,25 +9,25 @@ work:
     description:
       - title: "Key Projects"
         contents:
-          - "Designed and implemented Transformer-based frameworks for glucose level estimation."
-          - "Developed and optimized LSTM and autoencoder architectures for sensor data analysis."
+          - "Designed and implemented Transformer-based frameworks for glucose level estimation. [PyTorch, Hugging Face]"
+          - "Developed and optimized LSTM and autoencoder architectures for sensor data analysis. [PyTorch, Tensorflow]"
           - "Analyzed sensor data to uncover meaningful predictive patterns."
     logo: "/assets/img/asr.png"
 
   - title: "Intern Research Scientist"
-    company: "Samsung Research"
-    duration: "Jun 2022 - Apr 2023"
-    year: "2022-2023"
+    company: "Samsung Research Montreal"
+    duration: "Jun 2022 – Apr 2023"
+    year: "2022–2023"
     location: "Montreal, Canada"
     url: "https://research.samsung.com/aicenter_montreal"
-    maindescription: "Developed reinforcement learning methods for 5G networks."
+    maindescription: "Designed and implemented deep reinforcement learning solutions for network optimization in 5G systems."
     description:
       - title: "Key Projects"
         contents:
-          - "Implemented and evaluated reinforcement learning architectures to optimize agent performance."
-          - "Developed curriculum learning techniques to effectively train reinforcement learning agents."
-          - "Implemented a Vector Quantized Variational Autoencoder for efficient high-dimensional data clustering."
-          - "Adapted and integrated an existing Online Decision Transformer within our reinforcement learning framework."
+          - "Designed and evaluated deep reinforcement learning architectures to optimize network load balancing. [PyTorch, OpenAI Gym, Stable Baselines3]"
+          - "Developed curriculum learning techniques to improve RL agents' adaptability to complex tasks. [PyTorch, Stable Baselines3]"
+          - "Implemented a Vector Quantized Variational Autoencoder (VQVAE) for representation learning in reinforcement learning tasks. [PyTorch]"
+          - "Integrated an Online Decision Transformer into an existing RL framework to enhance network load balancing and energy efficiency. [PyTorch, Hugging Face]"
     logo: "/assets/img/samsung.png"
 
   - title: "Research Engineer"
@@ -40,7 +40,7 @@ work:
     description:
       - title: "Key Projects"
         contents:
-          - "Designed and developed interactive video games to study cognitive processes."
+          - "Designed and developed interactive video games to study cognitive processes. [Unity, GameMaker Studio]"
           - "Collaborated with psychologists to align game mechanics with research objectives."
     logo: "/assets/img/pars_cognition.png"
 

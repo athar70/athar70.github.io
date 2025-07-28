@@ -100,8 +100,9 @@
     {
       "institution": "University of Alberta",
       "location": "Edmonton, Canada",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.ualberta.ca/en/computing-science/",
       "area": "Computing Science",
+      "thesis": "Automated Personalized Exposure Therapy Based on Physiological Measures Using Experience-driven Procedural Content Generation via Reinforcement Learning",
       "studyType": "Doctor of Philosophy",
       "startDate": "2018-09-01",
       "endDate": "2024-12-01",
@@ -115,8 +116,9 @@
     {
       "institution": "Shahid Beheshti University,",
       "location": "Tehran, Iran",
-      "url": "https://www.ualberta.ca/en/computing-science/",
+      "url": "https://ece.ut.ac.ir/en/",
       "area": "Computer Engineering/Artificial Intelligence",
+      "thesis": "Pattern Extraction and Analysis of the Behavior of Children with Autism Spectrum Disorders Using a Designed Video Game",
       "studyType": "Master of Science,",
       "startDate": "2014-09-01",
       "endDate": "2017-08-01",
@@ -128,6 +130,7 @@
       "location": "Tehran, Iran",
       "url": "https://encse.sbu.ac.ir/",
       "area": "Computer Engineering/Software Engineering",
+      "thesis": "Designed and Developed a Video Game for Children with Autism to Improve their Receptive Language Skills.",
       "studyType": "Bachelor of Science",
       "startDate": "2009-09-01",
       "endDate": "2014-08-01",
@@ -254,6 +257,15 @@
       "highlights": [
         "Implemented progressive learning strategies to enhance RL training",
         "Utilized OpenAI Gym environments for robust testing and validation"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Player Experience Modeling for Adaptive Games",
+      "summary": "Developed player experiences modeling to make Experience-Driven Procedural Content Generation (EDPCG) more accessible from gameplay videos.",
+      "highlights": [
+        "Built a player experience model to predict player tension using data-driven methods",
+        "Conducted human subject study to validate the model"
       ],
       "url": ""
     },
