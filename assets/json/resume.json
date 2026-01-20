@@ -1,16 +1,15 @@
 {
   "basics": {
     "name": "Athar Mahmoudi",
-    "label": "",
+    "label": "Machine Learning Scientist",
     "image": "",
     "email": "athar1@ualberta.ca",
     "phone": "(587) 501-8919",
-    "url": "",
     "summary": "",
     "location": {
-      "address": "10135 Saskatchewan Dr",
+      "address": "6080 McKay Ave",
       "postalCode": "",
-      "city": "Edmonton",
+      "city": "Burnaby",
       "countryCode": "Canada",
       "region": ""
     },
@@ -28,19 +27,45 @@
       "icon": "fa-solid fa-brain",
       "keywords": [
         "Model-Free RL",
-        "Deep Reinforcement Learning",
-        "RL from Human Feedback (RLHF)",
+        "Deep Reinforcement Learning (DQN, PPO, SAC)",
+        "Q-Learning",
+        "Reward Modeling (RLHF-style)",
+        "Personalized Reward Models",
+        "Reward Shaping",
         "Transfer Learning in RL"
       ]
     },
     {
-      "name": "Time Series and Sensor Analytics",
+      "name": "Deep Learning & Time Series",
       "icon": "fa-solid fa-chart-line",
       "keywords": [
-        "Time Series Analysis",
-        "Transformers for Time Series",
+        "Transformers",
         "Decision Transformer",
-        "Forecasting and Prediction"
+        "Long Short-Term Memory (LSTM)",
+        "Representation Learning (VAE, VQ-VAE)",
+        "Online Decision Transformer",
+        "Domain Adaptation",
+        "Domain Generalization"
+      ]
+    },
+    {
+      "name": "Optimization & AutoML",
+      "icon": "fa-solid fa-cogs",
+      "keywords": [
+        "Bayesian Optimization",
+        "Hyperparameter Optimization (HBO)",
+        "AutoML pipelines"
+      ]
+    },
+    {
+      "name": "Research Methods",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Explainable AI (SHAP)",
+        "Experimental Design (A/B Testing, Ablation Studies)",
+        "Statistical Analysis",
+        "Signal Processing",
+        "Uncertainty Estimation"
       ]
     },
     {
@@ -53,18 +78,56 @@
       ]
     }
   ],
+  "tools": [
+    {
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "SQL",
+        "MATLAB",
+        "C#"
+      ]
+    },
+    {
+      "name": "ML & DL Frameworks",
+      "icon": "fa-solid fa-cubes",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face",
+        "Stable Baselines3",
+        "Scikit-learn",
+        "OpenAI Gym"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "Docker",
+        "AWS",
+        "GCP",
+        "Git",
+        "Linux/Bash"
+      ]
+    }
+  ],
   "work": [
   {
-    "name": "Advanced Sensor Research (ASR)",
+    "name": "Advanced Sensor Research Inc. (ASR)",
     "location": "Edmonton, Canada",
     "position": "Machine Learning Scientist",
     "url": "https://advancedsensorresearch.ca/",
     "startDate": "2025-01-16",
-    "summary": "Working on innovative, AI-driven solutions for glucose monitoring using advanced sensor technologies.",
+    "summary": "Building end-to-end time-series machine learning pipelines for non-invasive glucose estimation.",
     "highlights": [
-      "Designed and implemented Transformer-based frameworks for accurate glucose level estimation.",
-      "Developed and optimized Long Short-Term Memory (LSTM) networks and autoencoders for robust sensor data processing.",
-      "Conducted extensive sensor data analysis to identify and leverage meaningful patterns for predictive modeling."
+      "Built end-to-end time-series machine learning pipelines for non-invasive glucose estimation. [PyTorch, TensorFlow, Hugging Face]",
+      "Developed and benchmarked Transformer-based sequence models alongside baselines (LSTM, TCN), including representation learning with autoencoder-style pretraining. [PyTorch]",
+      "Ran structured architecture and hyperparameter experiments; compared training protocols for stability across sensor noise and session variability. [PyTorch, Scikit-learn]",
+      "Designed evaluation splits to test generalization across subjects/sessions/sensor units; investigated domain generalization and domain adaptation strategies. [PyTorch, Pandas]",
+      "Implemented explainability and error analysis workflows (slice-based analysis, failure mode analysis, calibration/uncertainty checks). [PyTorch]",
+      "Performed exploratory data analysis and signal-quality investigations to identify data issues and guide data-cleaning and collection improvements. [SciPy]"
     ]
   },
   {
@@ -73,19 +136,19 @@
     "position": "Intern Research Scientist",
     "url": "https://research.samsung.com/aicenter_montreal",
     "startDate": "2022-06-01",
-    "endDate": "2023-05-01",
-    "summary": "Focused on reinforcement learning and high-dimensional data representation for load balancing and energy saving in networks.",
+    "endDate": "2023-04-01",
+    "summary": "Designed and evaluated deep reinforcement learning methods for network load balancing and energy efficiency.",
     "highlights": [
-      "Implemented and evaluated reinforcement learning architectures to optimize agent performance.",
-      "Developed curriculum learning strategies to effectively train RL agents.",
-      "Designed and deployed a Vector Quantized Variational Autoencoder (VQ-VAE) for efficient clustering of high-dimensional data.",
-      "Integrated and adapted an Online Decision Transformer within reinforcement learning frameworks."
+      "Designed and evaluated deep reinforcement learning methods for network load balancing in simulated environments. [PyTorch, OpenAI Gym, Stable Baselines3]",
+      "Implemented curriculum learning to improve training robustness and generalization to harder scenarios. [PyTorch, Stable Baselines3]",
+      "Implemented a Vector-Quantized Variational Autoencoder (VQ-VAE) for representation learning within RL pipelines. [PyTorch]",
+      "Adapted and integrated an Online Decision Transformer into an existing RL framework to enhance network load balancing and energy efficiency. [PyTorch, Hugging Face]"
     ]
   },
   {
     "name": "Pars Cognition",
     "location": "Tehran, Iran",
-    "position": "Research Engineer",
+    "position": "Software Engineer",
     "url": "https://www.maghzineh.com/",
     "startDate": "2017-09-01",
     "endDate": "2018-09-01",
@@ -105,7 +168,7 @@
       "thesis": "Automated Personalized Exposure Therapy Based on Physiological Measures Using Experience-driven Procedural Content Generation via Reinforcement Learning",
       "studyType": "Doctor of Philosophy",
       "startDate": "2018-09-01",
-      "endDate": "2024-12-01",
+      "endDate": "2025-01-01",
       "score": "",
       "courses": [
         "Intro to Virtual/Augmented Reality and Telepresence",
@@ -158,13 +221,13 @@
       "name": "Development Tools & Platforms",
       "level": "Master",
       "icon": "fa-solid fa-tools",
-      "keywords": ["Visual Studio Code", "Microsoft Visual Studio", "Git", "Jupyter Notebook", "Google Colab", "Google Cloud Platform", "AWS"]
+      "keywords": ["Visual Studio Code", "Git", "Docker", "Google Cloud Platform", "AWS", "Linux/Bash"]
     },
     {
       "name": "Frameworks & Libraries",
       "level": "Master",
       "icon": "fa-solid fa-cubes",
-      "keywords": ["PyTorch", "OpenAI Gym", "Scikit-learn", "TensorFlow", "Hugging Face", "Microsoft .NET"]
+      "keywords": ["PyTorch", "Scikit-learn", "TensorFlow", "Hugging Face", "Stable Baselines3", "OpenAI Gym"]
     },
     {
       "name": "Game and Simulation Engines",
@@ -218,105 +281,145 @@
     },
     {
       "name": "Spiders Based on Anxiety: How Reinforcement Learning Can Deliver Desired User Experience in Virtual Reality Personalized Arachnophobia Treatment",
-      "publisher": "Accepted for publication in ACM Transactions on Interactive Intelligent Systems (TIIS)",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/abs/2409.17406",
+      "publisher": "ACM Transactions on Interactive Intelligent Systems",
+      "releaseDate": "2026",
+      "url": "https://dl.acm.org/doi/full/10.1145/3766062",
       "summary": "This paper introduces a framework for personalized virtual reality exposure therapy for arachnophobia that leverages procedural content generation and reinforcement learning to automatically adapt virtual spiders to elicit specific anxiety responses, demonstrating superior performance over traditional rules-based methods."
     }
   ],
   "projects": [
     {
-      "name": "Experience-Driven Procedural Content Generation via Reinforcement Learning",
-      "summary": "Developed an adaptive system using Experience-Driven Procedural Content Generation and Reinforcement Learning to tailor virtual environments based on user experiences.",
-      "highlights": ["Implemented reinforcement learning algorithms in Python", "Utilized OpenAI Gym for environment simulation and testing"],
-      "url": "https://github.com/athar70/EDPCGRL4Spider"
+      "name": "Transformer-Based Glucose Level Estimation",
+      "summary": "Built end-to-end time-series pipelines using Transformer, LSTM, and autoencoder models for non-invasive glucose estimation from sensor data. [PyTorch, TensorFlow]",
+      "highlights": [
+        "Benchmarked Transformer architectures against LSTM and TCN baselines",
+        "Implemented representation learning with autoencoder-style pretraining"
+      ],
+      "url": ""
     },
     {
-      "name": "Glucose Level Estimation Using Transformer-Based Models",
-      "summary": "Built Transformer, LSTM, and autoencoder models in Python using PyTorch to estimate glucose levels from non-invasive sensor data.",
+      "name": "RLHF-Inspired Personalized Reward Learning",
+      "summary": "Proposed an approach inspired by RLHF that learns reward models from physiological feedback and user embeddings for faster agent personalization. [PyTorch]",
       "highlights": [
-        "Implemented Transformer-based architectures for time series forecasting"
+        "Designed reward models incorporating physiological signals and user-specific embeddings",
+        "Implemented pretraining and fine-tuning pipelines for rapid adaptation to individual users"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Domain Adaptation for Sensor Data",
+      "summary": "Developed domain adaptation and generalization techniques to handle sensor variability across users, body locations, and sensor units. [PyTorch, Pandas]",
+      "highlights": [
+        "Addressed domain shift where sensors behave differently per person and placement",
+        "Implemented transfer learning strategies across sensor configurations"
       ],
       "url": ""
     },
     {
       "name": "Online Decision Transformer",
-      "summary": "Developed an Online Decision Transformer using Python and PyTorch to enhance decision-making processes in dynamic environments.",
-      "highlights": ["Implemented transformer models for real-time decision making", "Leveraged PyTorch for efficient model training and deployment"],
-      "url": ""
-    },
-    {
-      "name": "Vector Quantized Variational Autoencoder for Time-Series Clustering",
-      "summary": "Developed a Vector Quantized Variational Autoencoder using Python and PyTorch for effective clustering of time-series data.",
-      "highlights": ["Implemented VQ-VAE architecture for dimensionality reduction", "Applied to time-series data for improved clustering accuracy"],
-      "url": ""
-    },
-    {
-      "name": "Curriculum Learning for Reinforcement Learning",
-      "summary": "Developed a curriculum learning approach for reinforcement learning using Python and OpenAI Gym to improve learning efficiency and performance.",
+      "summary": "Adapted and integrated an Online Decision Transformer into RL frameworks for real-time sequential decision-making. [PyTorch, Hugging Face]",
       "highlights": [
-        "Implemented progressive learning strategies to enhance RL training",
-        "Utilized OpenAI Gym environments for robust testing and validation"
+        "Extended offline Decision Transformer for online learning scenarios",
+        "Applied to network load balancing and energy efficiency optimization"
       ],
       "url": ""
     },
     {
-      "name": "Player Experience Modeling for Adaptive Games",
-      "summary": "Developed player experiences modeling to make Experience-Driven Procedural Content Generation (EDPCG) more accessible from gameplay videos.",
+      "name": "VQ-VAE for Time-Series Representation Learning",
+      "summary": "Implemented Vector-Quantized Variational Autoencoder for clustering and representation learning on high-dimensional time-series data. [PyTorch]",
       "highlights": [
-        "Built a player experience model to predict player tension using data-driven methods",
-        "Conducted human subject study to validate the model"
+        "Designed discrete latent representations for improved clustering",
+        "Applied to network traffic patterns for efficient data compression"
       ],
       "url": ""
     },
     {
-      "name": "Stress Level Estimation Based on Physiological Responses",
-      "summary": "Estimated stress levels using physiological responses through traditional machine learning methods and LSTM models in Python, Scikit-learn, and PyTorch.",
-      "highlights": ["Developed models to accurately classify stress states", "Integrated physiological data for comprehensive analysis"],
+      "name": "Explainability and Error Analysis Framework",
+      "summary": "Built workflows for model interpretability including slice-based analysis, failure mode detection, and uncertainty quantification. [PyTorch, SHAP]",
+      "highlights": [
+        "Implemented systematic error analysis to identify prediction failure patterns",
+        "Designed calibration checks to assess model confidence reliability"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Experience-Driven PCG via Reinforcement Learning",
+      "summary": "Developed RL-based procedural content generation that adapts virtual environments based on real-time physiological feedback. [PyTorch, OpenAI Gym, Stable Baselines3]",
+      "highlights": [
+        "Trained DQN and PPO agents to generate personalized therapeutic content",
+        "Integrated physiological sensors for closed-loop adaptation"
+      ],
+      "url": "https://github.com/athar70/EDPCGRL4Spider"
+    },
+    {
+      "name": "Curriculum Learning for RL",
+      "summary": "Implemented curriculum learning strategies to improve RL training robustness and generalization to harder scenarios. [PyTorch, Stable Baselines3]",
+      "highlights": [
+        "Designed progressive task difficulty scheduling for stable learning",
+        "Improved agent generalization through structured training curricula"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Stress Detection from Physiological Signals",
+      "summary": "Built classification models to detect stress states from PPG and physiological responses using ML and deep learning. [PyTorch, Scikit-learn]",
+      "highlights": [
+        "Compared traditional ML methods with LSTM-based approaches",
+        "Achieved 70.6% accuracy in VR-based stress classification"
+      ],
       "url": "https://github.com/athar70/Stress-Estimation"
     },
     {
-      "name": "Heart Rate Estimation from Video via CNN",
-      "summary": "Developed a Convolutional Neural Network in Python and PyTorch to estimate heart rate from video data, enabling non-intrusive physiological monitoring.",
-      "highlights": ["Designed and trained CNN models for accurate heart rate estimation", "Implemented video processing techniques"],
+      "name": "Heart Rate Estimation from Video",
+      "summary": "Developed CNN-based remote photoplethysmography (rPPG) for non-contact heart rate estimation from facial video. [PyTorch]",
+      "highlights": [
+        "Implemented end-to-end deep learning pipeline for video-based vital signs",
+        "Enabled non-intrusive physiological monitoring without wearables"
+      ],
       "url": "https://github.com/athar70/Heart-Rate-Estimation"
     },
     {
-      "name": "Behavior Pattern Analysis in Games",
-      "summary": "Applied machine learning techniques in MATLAB to identify distinct behavior patterns in game environments, enhancing user experience and engagement.",
-      "highlights": ["Developed models to detect and categorize user behaviors", "Utilized MATLAB for data analysis and visualization"],
-      "url": ""
-    },
-    {
-      "name": "Adaptive Virtual Reality Environment",
-      "summary": "Created a Virtual Reality environment with dynamic parameters in Unity, allowing real-time adjustments based on user interactions and physiological responses.",
+      "name": "Player Experience Modeling",
+      "summary": "Built data-driven models to predict player affect from gameplay videos for adaptive game content generation. [PyTorch]",
       "highlights": [
-        "Implemented real-time parameter adjustments to enhance user experience",
-        "Integrated physiological sensors for adaptive environment changes"
-      ],
-      "url": "https://www.youtube.com/watch?v=cYK5I_U6mK0&t=1s&ab_channel=AtharMahmoudi-Nejad"
-    },
-    {
-      "name": "Serious Video Games Development",
-      "summary": "Developed small serious video games using GameMaker and Unity, focusing on educational and therapeutic applications to engage users effectively.",
-      "highlights": [
-        "Designed game mechanics to support educational and therapeutic goals",
-        "Utilized GameMaker and Unity for cross-platform game development"
+        "Developed label-free approach using Let's Play videos",
+        "Validated through human studies correlating predictions with affective measures"
       ],
       "url": ""
     },
     {
-      "name": "Neural Network for Impulse Noise Detection",
-      "summary": "Implemented a neural network in MATLAB to detect impulse noise, improving signal processing accuracy in communication systems.",
-      "highlights": ["Designed and trained neural network models for noise detection"],
+      "name": "Adaptive VR Environment",
+      "summary": "Created VR environments with real-time parameter adaptation based on user interactions and physiological responses. [Unity, C#]",
+      "highlights": [
+        "Integrated physiological sensors for closed-loop environment control",
+        "Applied to exposure therapy for anxiety disorders"
+      ],
+      "url": "https://www.youtube.com/watch?v=cYK5I_U6mK0"
+    },
+    {
+      "name": "Behavior Pattern Analysis",
+      "summary": "Applied ML techniques to identify and classify user behavior patterns in interactive game environments. [MATLAB]",
+      "highlights": [
+        "Extracted features to differentiate behavioral patterns",
+        "Applied to autism research for early screening applications"
+      ],
       "url": ""
     },
     {
       "name": "Hidden Semi-Markov Model for Mobility Tracking",
-      "summary": "Implemented a hidden semi-Markov model in Java to track mobility patterns with missing data and multiple observation sequences, enhancing data reliability and tracking accuracy.",
+      "summary": "Implemented probabilistic models to track mobility patterns with missing data and multiple observation sequences. [Java]",
       "highlights": [
-        "Developed robust models to handle incomplete and complex data",
-        "Improved mobility tracking through advanced statistical methods"
+        "Handled incomplete and noisy sequential data",
+        "Improved tracking accuracy through advanced statistical modeling"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Serious Games for Cognitive Development",
+      "summary": "Developed educational and therapeutic video games targeting cognitive assessment and social skill development. [Unity, GameMaker]",
+      "highlights": [
+        "Designed game mechanics for children with autism spectrum disorders",
+        "Created engaging experiences for cognitive science research"
       ],
       "url": ""
     }

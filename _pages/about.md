@@ -9,17 +9,15 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Edmonton, AB, Canada</p>
+    <p>Burnaby, BC, Canada</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Athar Mahmoudi, a Machine Learning Scientist at [Advanced Sensor Research Inc. (ASR)](https://advancedsensorresearch.ca/), where we are revolutionizing glucose monitoring using breakthrough technologies. Our approach leverages non-invasive sensors coupled with advanced machine learning techniques, including cutting-edge Transformer models.
+I am a Machine Learning Scientist specializing in **deep learning** and statistical methods for physiological time-series analysis. Currently, I lead research on non-invasive glucose estimation at [Advanced Sensor Research Inc. (ASR)](https://advancedsensorresearch.ca/), developing **Transformer-based architectures** and **representation learning** pipelines for noisy, real-world data.
 
-I earned my Ph.D. in Computing Science from the University of Alberta in January 2025, where I had the privilege of working under the guidance of [Dr. Matthew Guzdial](https://www.amii.ca/about/our-people/matthew-guzdial/)  and [Prof. Pierre Boulanger](https://webdocs.cs.ualberta.ca/~pierreb/).
+I hold a Ph.D. in Computing Science from the University of Alberta, where I focused on **Reinforcement Learning** and **Human-Centered AI** under the guidance of [Dr. Matthew Guzdial](https://www.amii.ca/about/our-people/matthew-guzdial/) and [Prof. Pierre Boulanger](https://webdocs.cs.ualberta.ca/~pierreb/).
 
-My Ph.D. research explores the exciting intersections of Reinforcement Learning and personalized virtual reality experiences. 
-
-I am passionate about leveraging these technologies to create innovative solutions that meaningfully enhance user interaction, deepen engagement, and promote greater awareness.
+My research philosophy bridges the gap between theoretical novelty and deployment: I focus on building robust, interpretable models that generalize across domains (people and sensors) and withstand the uncertainty of applied settings. My technical core lies in **sequence modeling**, **domain generalization**, and rigorous **experimental evaluation** to support data-driven decision-making.

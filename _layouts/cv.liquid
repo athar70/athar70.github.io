@@ -78,7 +78,14 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% case data[0] %}
+              {% when 'interests' %}
+                <h3 class="card-title font-weight-medium">Technical Skills</h3>
+              {% when 'tools' %}
+                <h3 class="card-title font-weight-medium">Engineering & Tools</h3>
+              {% else %}
+                <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% endcase %}
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
@@ -100,6 +107,8 @@ layout: default
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
+                  {% include resume/interests.liquid %}
+                {% when 'tools' %}
                   {% include resume/interests.liquid %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}

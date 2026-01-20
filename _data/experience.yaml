@@ -1,17 +1,18 @@
 work:
   - title: "Machine Learning Scientist"
-    company: "Advanced Sensor Research (ASR)"
+    company: "Advanced Sensor Research Inc. (ASR)"
     duration: "Jan 2025 - Present"
     year: "2025-Present"
     location: "Edmonton, Canada"
     url: "https://advancedsensorresearch.ca/"
-    maindescription: "Developing AI-driven methods for non-invasive glucose monitoring using sensor data."
+    maindescription: "Leading ML research for non-invasive glucose monitoring using advanced sensor technologies."
     description:
-      - title: "Key Projects"
+      - title: "Highlights"
         contents:
-          - "Designed and implemented Transformer-based frameworks for glucose level estimation. [PyTorch, Hugging Face]"
-          - "Developed and optimized LSTM and autoencoder architectures for sensor data analysis. [PyTorch, Tensorflow]"
-          - "Analyzed sensor data to uncover meaningful predictive patterns."
+          - "Built end-to-end time-series ML pipelines for non-invasive glucose estimation from sensor data. [PyTorch, TensorFlow, Hugging Face]"
+          - "Developed and benchmarked Transformer-based models alongside baselines (LSTM, TCN) with autoencoder-style pretraining. [PyTorch]"
+          - "Designed evaluation protocols for cross-subject/session generalization; investigated domain adaptation strategies. [PyTorch, Pandas]"
+          - "Implemented explainability workflows including slice-based analysis, failure mode detection, and uncertainty quantification. [PyTorch, SHAP]"
     logo: "/assets/img/asr.png"
 
   - title: "Intern Research Scientist"
@@ -20,28 +21,28 @@ work:
     year: "2022–2023"
     location: "Montreal, Canada"
     url: "https://research.samsung.com/aicenter_montreal"
-    maindescription: "Designed and implemented deep reinforcement learning solutions for network optimization in 5G systems."
+    maindescription: "Applied deep RL and representation learning to optimize 5G network resource allocation."
     description:
-      - title: "Key Projects"
+      - title: "Highlights"
         contents:
-          - "Designed and evaluated deep reinforcement learning architectures to optimize network load balancing. [PyTorch, OpenAI Gym, Stable Baselines3]"
-          - "Developed curriculum learning techniques to improve RL agents' adaptability to complex tasks. [PyTorch, Stable Baselines3]"
-          - "Implemented a Vector Quantized Variational Autoencoder (VQVAE) for representation learning in reinforcement learning tasks. [PyTorch]"
-          - "Integrated an Online Decision Transformer into an existing RL framework to enhance network load balancing and energy efficiency. [PyTorch, Hugging Face]"
+          - "Built and benchmarked deep RL architectures (SAC, PPO) for network load balancing in simulated 5G environments. [PyTorch, OpenAI Gym, Stable Baselines3]"
+          - "Designed curriculum learning strategies to enhance agent robustness and generalization to complex scenarios. [PyTorch, Stable Baselines3]"
+          - "Developed a VQ-VAE model for learning discrete latent representations within RL pipelines. [PyTorch]"
+          - "Adapted an Online Decision Transformer for real-time load balancing and energy optimization. [PyTorch, Hugging Face]"
     logo: "/assets/img/samsung.png"
 
-  - title: "Research Engineer"
+  - title: "Software Engineer"
     company: "Pars Cognition"
     duration: "Sept 2017 - Aug 2018"
     year: "2017-2018"
     location: "Tehran, Iran"
     url: "https://www.maghzineh.com/"
-    maindescription: "Developed mini-serious video games in the field of cognitive science."
+    maindescription: "Built serious games for cognitive assessment and therapeutic applications."
     description:
-      - title: "Key Projects"
+      - title: "Highlights"
         contents:
-          - "Designed and developed interactive video games to study cognitive processes. [Unity, GameMaker Studio]"
-          - "Collaborated with psychologists to align game mechanics with research objectives."
+          - "Created interactive mini-games targeting cognitive skill development in collaboration with psychologists."
+          - "Designed game mechanics aligned with research objectives in cognitive science."
     logo: "/assets/img/pars_cognition.png"
 
 teaching:
